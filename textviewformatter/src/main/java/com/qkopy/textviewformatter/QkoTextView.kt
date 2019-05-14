@@ -1,6 +1,7 @@
 package com.qkopy.textviewformatter
 
 import android.content.Context
+import android.support.v7.widget.AppCompatTextView
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.AttributeSet
@@ -8,7 +9,7 @@ import android.widget.TextView
 
 import java.util.ArrayList
 
-class QkoTextView : android.support.v7.widget.AppCompatTextView {
+class QkoTextView : AppCompatTextView {
 
 
     /**
